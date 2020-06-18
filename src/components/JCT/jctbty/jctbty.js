@@ -20,7 +20,7 @@ const HomeScreen = () => {
           } else if(route.name === 'Alarms') {
             iconName = focused ? require(`../../../assets/images/alarm-icon-active.png`) : require(`../../../assets/images/alarm-icon-inactive.png`)
           }
-          
+
           return <Image source={iconName} style={{ height: 20, width: 20 }} />
         }
       })}

@@ -12,6 +12,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 
 import BTY from './JCT/bty/BTY'
+import jctbty from './JCT/jctbty/jctbty'
 import North from './JCT/north/North'
 import DetailsScreen from './DetailsScreen'
 import SitesDrawer from './organisms/SitesDrawer'
@@ -44,6 +45,7 @@ const App = () => {
       >
         <Drawer.Screen name="BTY" component={BTY} />
         <Drawer.Screen name="North" component={North} />
+        <Drawer.Screen name="JCTBTY" component={jctbty} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
